@@ -1,8 +1,11 @@
+body{
+    margin: auto 0;
+}
 .zone {
-    padding:30px 50px;
-    margin:40px 60px;
+    /* padding:30px 50px;
+    margin:40px 60px; */
     cursor:pointer;
-    display:inline-block;
+    /* display:inline-block; */
     color:#FFF;
     font-size:2em;
     border-radius:4px;
@@ -10,17 +13,27 @@
     transition: all 0.3s linear;
 }
 /*My work vvv*/
-.container{
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    grid-template-rows: 1fr;
+
+.main-nav{
+    display: flex;
+    list-style: none;
+    font-size: 0.7em;
+    margin: 0;
 }
 
-.green{
-    display: flex;
-    align-items: flex-start;
+.contacts{
+    margin-left: auto; /*puts contacts li to the left*/
 }
+
+li{
+    padding: 20px;
+}
+a{
+    color: #f5f5f6;
+    text-decoration: none;
+}
+
+
 /*My work ^^^*/
 .zone:hover {
     -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
