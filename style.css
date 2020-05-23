@@ -18,8 +18,9 @@ body{
             /*main nav is flexbox*/
             display: flex;
             list-style: none;
-            font-size: 0.7em;
             margin: 0;
+            font-size: 0.7em;
+            
         }
 
         @media only screen and (max-width: 600px){
@@ -48,6 +49,7 @@ body{
             justify-content: center;
             height: 50vh;
         }
+    /*COVER*/
 
 /*My work ^^^*/
 .zone:hover {
