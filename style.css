@@ -41,6 +41,13 @@ body{
             text-decoration: none;
         }
     /*navbar*/
+    /*Cover*/
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 50vh;
+        }
 
 /*My work ^^^*/
 .zone:hover {
